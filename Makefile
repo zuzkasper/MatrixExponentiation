@@ -1,4 +1,4 @@
-all : fourth.c
-	gcc -Wall -Werror -fsanitize=address -o fourth fourth.c
+all : exponentiation.c
+	gcc -Wall -Werror -fsanitize=address -o exponentiation exponentiation.c
 clean :
-	rm -rf fourth
+	rm -rf exponentiation
